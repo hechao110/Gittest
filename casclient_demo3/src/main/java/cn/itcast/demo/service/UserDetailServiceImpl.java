@@ -13,7 +13,7 @@ import java.util.List;
 public class UserDetailServiceImpl implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        System.out.println("经过认证类哈哈");
+        System.out.println("经过认证类哈哈");//000
 
         //构建角色集合
         List<GrantedAuthority>   authorities=new ArrayList();
